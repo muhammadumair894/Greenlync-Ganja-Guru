@@ -1,0 +1,6 @@
+langchain-serve 
+transformers 
+huggingface-hub 
+sentence_transformers 
+faiss-cpu 
+openai
