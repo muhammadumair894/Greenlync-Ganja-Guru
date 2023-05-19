@@ -237,7 +237,7 @@ class BabyAGI(BaseModel):
             task_prioritization_chain=task_prioritization_chain,
             execution_chain=execution_chain,
         )
-        controller.add_task({"task_id": "Lighting Up", "task_name": first_task})
+        controller.add_task({"task_id": 1, "task_name": first_task})
         return controller
 
 def main():
